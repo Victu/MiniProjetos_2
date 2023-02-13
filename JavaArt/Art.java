@@ -27,8 +27,8 @@ public class Art {
         return (byte) this.objDimensao;
     }
 
-    private void setModoOculto(boolean modo_oculto) {
-        this.modoOculto = modo_oculto;
+    private void setModoOculto(boolean oculto) {
+        this.modoOculto = oculto;
     }
 
     public boolean isModoOculto() {
