@@ -104,7 +104,7 @@ public class Art {
 
     public void mostrarBackground() {
        /* Este método mostrará novamente o "background"
-       OBS: Por padrão, o "background" já é expícito */
+       OBS: Por padrão, o "background" já é explícito */
         if (this.isModoOculto()) {
             this.setModoOculto(false);
             for (String[] pos : simbols) Arrays.fill(pos, ": ");
